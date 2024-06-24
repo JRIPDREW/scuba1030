@@ -1,0 +1,70 @@
+/*Background 
+    Blue #62B7D9
+ *Heading 
+        Red/Brown  #5A2D19
+ *Table/link
+        Green/Blue #19465A
+
+#D98462
+*/
+
+body {
+    background-color: #62B7D9;
+    padding: 8px 24px 40px 16px;
+}
+
+h1, h2, p.picture{
+    text-align: center;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h2{
+    font-size: 26px
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    color: #5A2D19;
+}
+
+
+p, li, td, th{
+    font-size: 1.1em;
+}
+
+p.resources{
+    border: double 24px #a06249;
+    padding: 16px;
+    color: white;
+}
+
+th, td {
+    border-color: #19465A;
+    border-style: solid;
+    border-width: 4px;
+    padding: 4px 8px;
+}
+
+
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 40px;
+}
+
+a {
+    color: #19465A;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #a06249;
+}
+

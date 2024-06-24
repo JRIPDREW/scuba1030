@@ -1,0 +1,102 @@
+/*
+
+/* 
+ * blue: #468BA6
+ * orange: #F29A2E  
+ * light orange: #FDF0E0
+ * darker blue: #1D4859
+ * brown: #593814
+ */
+
+
+/*How to create a background color to the webpage*/
+body {
+    background-color: #FDF0E0;
+}
+
+/*This is how to have space between the edges of the page and 
+ * everything in it*/
+body{
+    padding: 0 24px 36px 24px;
+}
+
+
+/*How to change the color of a text hyperlink*/
+a {
+    color: #593814;
+    font-weight: bold;
+}
+
+/*How to change the color of a text hyperlink when the mouse hovers
+ * over the text*/
+a:hover {
+    color:#1D4859;
+}
+
+
+/*How to change the font color*/
+h1, h2 {
+    color: #1D4859;
+}
+
+
+/*How to center using text-align*/
+h1 {
+    text-align: center;
+}
+
+
+/*How to center using text-align that is specific to one object
+ * This method requires changes in the HTML file
+ * The picture is put into a paragraph with a specific attribute
+ * <p class = "picture">*/
+p.picture{
+    text-align: center;
+}
+
+
+/*How to change the font size*/
+p, li, th, td {
+    font-size: 1.2em;
+}
+
+
+/*how to create borders in a table */
+th, td {
+    /* border-coler: #468BA6;
+     * border-style: solid;
+     * border-width: 3px;*/
+    border: #468BA6 solid 3px;
+}
+
+
+/*How to make the border lines between each cell be one line */
+table {
+    border-collapse: collapse;
+}
+
+
+/*How to create space between the words within a table and the 
+ * borders of the table*/
+th, td {
+    padding: 8px; 
+    /*This method gives padding to top, bottom, left and right
+     * padding: 6px 12px 8px 16px
+     * padding: top  right  bottom  left*/
+}
+
+
+/*How to center something without text-align*/
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+/* block  display
+ * specified width
+ * left and right margins need to be equal    -   set to auto
+ * */
